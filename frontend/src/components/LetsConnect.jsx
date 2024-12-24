@@ -13,7 +13,7 @@ const LetsConnect = () => {
 
 
     const formdetails = async (event) => {
-        const backend = process.env.REACT_APP_BACKENDURL
+        const backend = process.env.VITE_APP_BACKENDURL
         // console.log(backend)
 
         event.preventDefault();
