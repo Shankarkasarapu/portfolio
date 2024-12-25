@@ -15,6 +15,14 @@
 	font-weight: 400;
 }
 
+@media (max-width: 700px) {
+  body {
+    font-size: 14px; 
+    overflow-x: hidden;
+    min-width: 550px;
+  }
+}
+
 /* Default CSS */
 * {
   margin: 0;
