@@ -13,19 +13,17 @@ const PORT = 5000;
 // Middleware
 app.use(cors({
   origin: process.env.FRONTENDURL||"*",
-
 }));
 app.use(bodyParser.json());
 
-console.log(process.env.FRONTENDURL)
 // Nodemailer configuration
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
   port: 465,
   secure: true,
   auth: {
-    user: process.env.EMAIL, // Replace with your email
-    pass: process.env.PASSWORD, // Replace with your app password
+    user: process.env.EMAIL,
+    pass: process.env.PASSWORD, 
   },
   tls: {
     rejectUnauthorized: false,

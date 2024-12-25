@@ -65,7 +65,7 @@ const Projects = () => {
                                                 src={img}
                                                 className="w-100 m-auto p-4"
                                                 alt={`Slide ${imgIndex}`}
-                                                style={{ height: '230px', objectFit: 'cover', borderRadius: '10px' }}
+                                                style={{ height: '235px', objectFit: 'cover', borderRadius: '10px' }}
                                             />
                                         </Carousel.Item>
                                     ))}
@@ -91,12 +91,12 @@ const Projects = () => {
                                         >
                                             {expandedProject === index ? "See Less" : "See More"}
                                         </Button>
-                                        <Button
+                                        {/* <Button
                                             variant="outline-light"
                                             className="rounded border-0 col-5"
                                         >
                                             DEMO
-                                        </Button>
+                                        </Button> */}
                                     </div>
                                 </Card.Body>
                             </Card>

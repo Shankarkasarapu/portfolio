@@ -13,11 +13,12 @@ const LetsConnect = () => {
 
 
     const formdetails = async (event) => {
-        const backend = process.env.VITE_APP_BACKENDURL
-        // console.log(backend)
-
         event.preventDefault();
         setSend("Sending...")
+        const backend = import.meta.env.VITE_APP_BACKENDURL;
+        console.log(backend)
+
+        
         try {
             const response = await fetch(backend + "/send-email", {
                 method: "POST",

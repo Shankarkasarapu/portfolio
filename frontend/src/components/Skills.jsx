@@ -40,15 +40,15 @@ const Skills = () => {
                         {skillsData.map((skill, index) => (
                             <Card
                                 key={index}
-                                className="skillcard col-4 col-sm-3 col-md-2 col-lg-2 col-xl-1  m-2 p-2 ">
+                                className="skillcard col-4 col-sm-3 col-md-2 col-lg-1  m-2 p-2 t">
 
                                 <Card.Img
                                     variant="top"
-                                    className='w-100 animate__animated animate__zoomIn'
+                                    className='animate__animated animate__zoomIn m-auto'
                                     src={skill.icon}
                                     style={{ width: "90px ", height: "90px" }}
                                 />
-                                <Card.Title className='text-white text-center pt-3'>{skill.title}</Card.Title>
+                                <Card.Title className='text-white text-center pt-3 fs-6'>{skill.title}</Card.Title>
 
                             </Card>
                         ))}
