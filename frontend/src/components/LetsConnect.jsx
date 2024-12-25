@@ -28,9 +28,11 @@ const LetsConnect = () => {
                     email,
                     message,
                 }),
+                
             });
 
             if (response.ok) {
+                console.log(response)
                 setSend("Sent");
                 setShowAnimation(true);
                 setTimeout(() => {
