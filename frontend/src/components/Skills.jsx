@@ -40,7 +40,7 @@ const Skills = () => {
                         {skillsData.map((skill, index) => (
                             <Card
                                 key={index}
-                                className="skillcard col-4 col-sm-3 col-md-2 col-lg-1  m-2 p-2 t">
+                                className="skillcard col-4 col-sm-3 col-md-2 col-lg-2 col-xl-1  m-2 p-2 t">
 
                                 <Card.Img
                                     variant="top"

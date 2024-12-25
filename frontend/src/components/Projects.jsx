@@ -26,7 +26,7 @@ const Projects = () => {
         {
             title: "E-Commerce Web Page replicating Amazon",
             description: "Built a fully responsive e-commerce web application inspired by Amazon, optimized for multi-device compatibility to deliver a smooth shopping experience. Implemented efficient Add to Cart and Remove from Cart functionalities.",
-            techStack: "HTML, CSS, Bootstrap, React.js",
+            techStack: "HTML, CSS, Bootstrap, React.js, Restful API",
             imgurls: [amazon1, amazon2, amazon3, amazon4, amazon5],
         },
         {
